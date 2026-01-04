@@ -8,5 +8,8 @@ from . import text
 from . import files
 from . import time
 from . import randomx
+from . import math
+from . import matrix
 
-__all__ = ["text", "files", "time", "randomx"]
+__all__ = ["text", "files", "time", "randomx", "math", "matrix"]
+

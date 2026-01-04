@@ -1,10 +1,6 @@
 import math
 
 
-# ==================================================
-# BASIC MATH
-# ==================================================
-
 def factorial(n: int) -> int:
     """
     Return the factorial of a non-negative integer.
@@ -32,9 +28,7 @@ def sqrt(x):
     return math.sqrt(x)
 
 
-# ==================================================
-# TRIGONOMETRY (DEGREES OR RADIANS)
-# ==================================================
+
 
 def _to_radians(theta, unit):
     """
@@ -87,9 +81,6 @@ def cot(theta, unit="radians"):
     return 1 / t
 
 
-# ==================================================
-# LOGARITHMS & NUMBER THEORY
-# ==================================================
 
 def log(x, base=10):
     """

@@ -24,11 +24,6 @@ def write_text(path, text: str):
     """
     Path(path).write_text(text, encoding="utf-8")
 
-
-# -----------------------------
-# +5 NEW FUNCTIONS
-# -----------------------------
-
 def exists(path) -> bool:
     """
     Return True if path exists.

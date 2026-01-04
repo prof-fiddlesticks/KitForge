@@ -27,10 +27,6 @@ def random_name(length=8):
     return "".join(random.choice(string.ascii_lowercase) for _ in range(length))
 
 
-# -----------------------------
-# +5 NEW FUNCTIONS
-# -----------------------------
-
 def randint(a: int, b: int) -> int:
     """
     Return a random integer N such that a <= N <= b.

@@ -25,10 +25,6 @@ def benchmark(func, *args, repeats=100, **kwargs):
     return (end - start) / repeats
 
 
-# -----------------------------
-# +5 NEW FUNCTIONS
-# -----------------------------
-
 def now_utc():
     """
     Return the current UTC datetime.

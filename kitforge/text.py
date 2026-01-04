@@ -29,10 +29,6 @@ def between(s: str, left: str, right: str) -> str:
         return ""
 
 
-# -----------------------------
-# +5 NEW FUNCTIONS
-# -----------------------------
-
 def contains_any(s: str, items) -> bool:
     """
     True if any item in items is a substring of s.
